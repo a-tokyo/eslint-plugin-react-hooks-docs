@@ -20,7 +20,7 @@ module.exports = {
   meta: {
     docs: {
       description: 'Lints react hooks documentation',
-      url: 'https://github.com/a-tokyo/stylelint-rem-over-px',
+      url: 'https://github.com/a-tokyo/eslint-plugin-react-hooks-docs',
       recommended: true,
     },
     fixable: undefined,

@@ -1,5 +1,22 @@
 'use strict'
 
-import requireIndex from 'requireindex'
+var rules = {
+  docs: require('./rules/docs'),
+}
 
-export const rules = requireIndex(`${__dirname}/rules`)
+module.exports = {
+  rules,
+  configs: {
+    recommended: {
+      plugins: ['react-hooks-docs'],
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      rules: {
+        'react-hooks-docs/docs': 2,
+      },
+    },
+  },
+}

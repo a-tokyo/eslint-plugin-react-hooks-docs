@@ -1,5 +1,6 @@
 .husky
 .github
+docs
 node_modules
 tests
 lib
