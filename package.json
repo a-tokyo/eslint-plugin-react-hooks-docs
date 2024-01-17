@@ -1,14 +1,14 @@
 {
-  "name": "eslint-plugin-hooks-docs",
+  "name": "eslint-plugin-react-hooks-docs",
   "version": "0.0.1",
-  "description": "Enforces documentation on hooks",
+  "description": "Eslint plugin to enforce react hooks documentation",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-tokyo/eslint-plugin-hooks-docs.git"
+    "url": "git+https://github.com/a-tokyo/eslint-plugin-react-hooks-docs.git"
   },
   "bugs": {
-    "url": "https://github.com/a-tokyo/eslint-plugin-hooks-docs/issues"
+    "url": "https://github.com/a-tokyo/eslint-plugin-react-hooks-docs/issues"
   },
   "author": {
     "name": "Ahmed Tarek",
