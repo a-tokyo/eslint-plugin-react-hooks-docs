@@ -39,11 +39,11 @@ yarn add -D eslint eslint-plugin-react-hooks-docs --save-dev
 
 ## Usage
 
-Add `hooks-docs` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `react-hooks-docs` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-  "plugins": ["hooks-docs"]
+  "plugins": ["react-hooks-docs"]
 }
 ```
 
@@ -52,7 +52,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "hooks-docs/docs": [
+    "react-hooks-docs/docs": [
       2,
       {
         "skipDeclarations": true,
