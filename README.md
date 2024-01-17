@@ -1,29 +1,14 @@
-<h1 align="center"> eslint-plugin-react-hooks-docs </h1>
+# eslint-plugin-react-hooks-docs
 
-<p align="center">
-  <a href="https://github.com/a-tokyo/eslint-plugin-react-hooks-docs/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/a-tokyo/eslint-plugin-react-hooks-docs?color=0d1117&style=for-the-badge&colorA=1C1D27">
-  </a>
-  <a href="https://github.com/a-tokyo/eslint-plugin-react-hooks-docs/network">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/a-tokyo/eslint-plugin-react-hooks-docs?color=0d1117&style=for-the-badge&colorA=1C1D27">
-  </a>
-  <a href="https://github.com/a-tokyo/eslint-plugin-react-hooks-docs/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/a-tokyo/eslint-plugin-react-hooks-docs?style=for-the-badge&color=0d1117&colorA=1C1D27">
-  </a>
-  <a href="httdivs://github.com/a-tokyo/eslint-plugin-react-hooks-docs/blob/develop/LICENSE">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/a-tokyo/eslint-plugin-react-hooks-docs?color=0d1117&style=for-the-badge&colorA=1C1D27" />
-  </a>
-  <a href="https://www.npmjs.com/package/eslint-plugin-react-hooks-docs">
-    <img alt="NPM" src="https://img.shields.io/npm/dt/eslint-plugin-react-hooks-docs?color=0d1117&style=for-the-badge&colorA=1C1D27" />
-  </a>
-</p>
+🚨 Eslint plugin to enforce react hooks documentation.
 
-<h3 align="center"> 🚨 Eslint plugin to enforce react hooks documentation. </h3>
+<br>
 
-<p align="center">
-  <sub>Built with ❤︎ by <a href="https://ahmedtokyo.com">Ahmed Tokyo</a>
-  <br/>
-</p>
+<a href="https://npmjs.com/package/eslint-plugin-react-hooks-docs">
+  <img src="https://img.shields.io/npm/v/eslint-plugin-react-hooks-docs.svg"></img>
+  <img src="https://img.shields.io/npm/dt/eslint-plugin-react-hooks-docs.svg"></img>
+</a>
+<a href="https://twitter.com/intent/follow?screen_name=ahmad_tokyo"><img src="https://img.shields.io/twitter/follow/ahmad_tokyo.svg?label=Follow%20@ahmad_tokyo" alt="Follow @ahmad_tokyo"></img></a>
 
 <br>
 
@@ -64,3 +49,8 @@ Then configure the rules you want to use under the rules section.
   }
 }
 ```
+
+<p align="center">
+  <sub>Built with ❤︎ by <a href="https://ahmedtokyo.com">Ahmed Tokyo</a>
+  <br/>
+</p>
