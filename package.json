@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-hooks-docs",
   "version": "0.0.1",
-  "description": "A simple organizer for ordering hooks.",
+  "description": "Enforces documentation on hooks",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
