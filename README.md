@@ -19,7 +19,7 @@ npm i eslint eslint-plugin-react-hooks-docs --save-dev
 ```
 OR
 ```bash
-yarn add -D eslint eslint-plugin-react-hooks-docs --save-dev
+yarn add -D eslint eslint-plugin-react-hooks-docs
 ```
 
 ## Usage
