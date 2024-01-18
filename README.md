@@ -24,6 +24,13 @@ yarn add -D eslint eslint-plugin-react-hooks-docs --save-dev
 
 ## Usage
 
+### Extending recommended configuration
+You can extend the recommended configuration by adding 'plugin:eslint-plugin-react-hooks-docs/recommended' to the `extends` array in your `eslintrc`.
+```
+extends: ['plugin:eslint-plugin-react-hooks-docs/recommended'],
+```
+
+### Manually applying the rules
 Add `react-hooks-docs` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
@@ -32,7 +39,7 @@ Add `react-hooks-docs` to the plugins section of your `.eslintrc` configuration 
 }
 ```
 
-Then configure the rules you want to use under the rules section.
+Then configure the rules you want to use under the rules section. Note that the 2nd param is optional extra configurations.
 
 ```json
 {
@@ -41,14 +48,22 @@ Then configure the rules you want to use under the rules section.
       2,
       {
         "skipDeclarations": true,
-        "skipHooks": [
-          "useCustomEffect"
-        ]
+        "skipHooks": []
       }
     ]
   }
 }
 ```
+
+## Rules
+
+### docs
+Enforces documentation to exist in the form of a comment for react hooks calls.
+
+**Options:**
+- skipDeclarations: boolean - doesn't enforce the rule on hook declarations eg: `const [state, setState] = useState(0);`.
+- skipHooks: Array<string> - doesn't enforce the rule on the hooks passed to in this array eg: `useCustomHook`
+
 
 <p align="center">
   <sub>Built with ❤︎ by <a href="https://ahmedtokyo.com">Ahmed Tokyo</a>
