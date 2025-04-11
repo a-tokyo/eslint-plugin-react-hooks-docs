@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-hooks-docs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Eslint plugin to enforce react hooks documentation",
   "repository": {
     "type": "git",
